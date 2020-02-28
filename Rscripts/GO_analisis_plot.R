@@ -1,10 +1,11 @@
+#!/usr/bin/env Rscript
 library(ggplot2)
 library(ggpubr)
+args = commandArgs(trailingOnly=TRUE)
 
+# to run this script you need as a input file: output file of GO terms enrichment
 
-
-
-data1<-read.delim("~/Desktop/Leishmania_info_06-01-20/01_htseq_outs/DE_analysis/LdonBPK282_tritryp/DE_comparison_AMA_PRO_LdonBPK282_Tritryp_table.csv", 
+data1<-read.delim(args[1], 
                  sep = '\t', header = T)
 
 data1$log.pvalue= -log(data1$p.value)
