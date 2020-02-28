@@ -15,5 +15,7 @@ detailed in paper ······
 for ask contact: 
 
 J. Eduardo Martinez jesus.martinez@mayor.cl
+
 Alberto J. Martin  alberto.martin@umayor.cl
+
 Vinicus Maracaja-Coutinho vinicius.maracaja@uchile.cl 
